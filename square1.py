@@ -5,8 +5,7 @@ def fun1():
     print(numbers)
     for number in numbers:
         square = number * number
-        print(number)
-        print(square)
+        print(f"square of {number} = {square}")
 
-
+        
 fun1()
